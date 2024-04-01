@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh ;
+  font-family: "Fraunces", serif;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  border: 7px dashed rgb(1,17,160);
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin:0 auto;
+}
+.card{
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.tour-details{
+  margin-top: 17px;
+  font-size: large;
+  display: block;
+  margin-right: 310px;
+}
+.tour-price{
+  color: green;
+}
+.tour-name{
+  color: rgb(48, 45, 45);
+  margin-top: 7px;
+  margin-bottom: 15px;
+  font-size: larger;
+  
+}
+.read-more{
+   color: blue;
+   cursor: pointer;
+}
+.btn-red{
+  background-color: rgb(230, 52, 52);
+  color: white;
+  width: 250px;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow:  rgba(0,0,0,0.24) 0px 3px 8px; 
+  font-size: 300;
+  font-weight: 600;
+  cursor: pointer;
+}
+.description{
+  padding: 10px;
+}
+.refresh{
+  width: 300px;
+ margin: auto;
+ margin-top: 250px;
+}
+.ntl{
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 60px;
+}
+.btn2{
+  background-color: rgb(230, 52, 52);
+  color: white;
+  width: 250px;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow:  rgba(0,0,0,0.24) 0px 3px 8px; 
+  font-size: 300;
+  font-weight: 600;
+  cursor: pointer;
+}
